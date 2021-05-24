@@ -1,0 +1,20 @@
+{
+  "set": "A",
+  "description": "",
+  "imgwidth": 20,
+  "imgheight": 44,
+  "scale": 1.0,
+  "spacing": 0,
+  "base_set": {
+    "0": "0", "1": "1", "2": "2", "3": "3", "4": "4", "5": "5",
+    "6": "6", "7": "7", "8": "8", "9": "9",
+    "spacer_on": "spacer_on", "spacer_off": "spacer_off"
+  },
+  "additional_set": {
+    "A": "A", "B": "B", "C": "C", "D": "D", "E": "E", "F": "F", "G": "G",
+    "H": "H", "I": "I", "J": "J", "K": "K", "L": "L", "M": "M", "N": "N",
+    "O": "O", "P": "P", "Q": "Q", "R": "R", "S": "S", "T": "T", "U": "U",
+    "V": "V", "W": "W", "X": "X", "Y": "Y", "Z": "Z",
+    "dash": "dash", "all-on": "all-on", "period": "period"
+  }
+}
