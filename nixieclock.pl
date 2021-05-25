@@ -112,6 +112,7 @@ while (my ($key, $val) = each(%{$imageconfig->{'base_set'}}) ) {
 # get current time and pack our timebox with the appropriate digit image
 my $time = DateTime->now()->set_time_zone($timezone);
 my $tooltip = "<span foreground='orange'>" . $time->day_name ." " . $time->day . " " . $time->month_name . " " . $time->year . "</span>";
+
 my $hourdigit1 = int($time->hour / 10);
 my $hourdigit2 = int($time->hour % 10);
 my $minutedigit1 = int($time->minute / 10);
@@ -168,6 +169,7 @@ sub updatetime {
     
     my $updatetime = DateTime->now()->set_time_zone($timezone);
     my $tooltip = "<span foreground='orange'>" . $updatetime->day_name ." " . $updatetime->day . " " . $updatetime->month_name . " " . $updatetime->year . "</span>";
+    $eventbox->set_tooltip_markup($tooltip);
     my $updatehourdigit1 = int($updatetime->hour / 10);
     my $updatehourdigit2 = int($updatetime->hour % 10);
     my $updateminutedigit1 = int($updatetime->minute / 10);
