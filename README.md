@@ -21,3 +21,9 @@ Key TODO's for this:
 - support for variable width images - each digit having it's own image width/height, or a default and then override for specific images like the separators
 - add in dynamic resizing of clock like a regular window later
 - put images in a grid in a single image file instead of separate images per digit
+
+Screenshots - bottom right corner of my desktop primary screen:
+
+![alt text](https://ob-mc.net/repo/nixie-snap1.png)
+
+![alt text](https://ob-mc.net/repo/nixie-snap2.png)
