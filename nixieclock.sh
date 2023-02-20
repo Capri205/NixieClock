@@ -1,4 +1,5 @@
 #!/bin/bash
 #
 
-perl ./nixieclock.pl
+cd /mnt/${USER}/Projects/NixieClock
+nohup perl ./nixieclock.pl &

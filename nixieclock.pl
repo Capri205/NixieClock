@@ -96,7 +96,7 @@ $window->set_resizable(FALSE);
 #$window->set_default_size($imagewidth*5,$imageheight);
 # try to place in bottom right corner of primary display by default - note the window manager ultimately
 # decides where this is placed, as other things on the desktop can prevent it getting placed accordingly
-my $windowplacex = ($screen_area->{width}+$screen_area->{x})-(($imagewidth * ($panel_width-1))+($imagewidth)+($spacing * 4));
+my $windowplacex = ($screen_area->{width}+$screen_area->{width}+$screen_area->{x})-(($imagewidth * ($panel_width-1))+($imagewidth)+($spacing * 4));
 my $windowplacey = ($screen_area->{height}+$screen_area->{y}) - $imageheight;
 $window->move($windowplacex, $windowplacey);
 #$window->signal_connect('motion_notify_event' => sub{ \&hoverover() }); # works for hovering over - will use later for something
